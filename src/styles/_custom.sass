@@ -62,10 +62,6 @@
 .titulo-principal__numero span
   color: white !important
 
-.titulo-principal.color-acento-contenido
-  .titulo-principal__numero span, 
-  .banner-interno__titulo__icono i
-    color: $white !important
 
 figcaption
   font-weight: normal
@@ -86,18 +82,37 @@ figcaption
 
 .bg-fondo
   &-1
-    //background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/curso/bg1.svg") !important
     background-position: bottom
   &-2
-    //background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/curso/bg2.png") !important
+    background-position: bottom
+  &-3
+    background-image: url("../assets/curso/bg3.svg") !important
     background-position: bottom
 
 .bg-color
   &-1
-    background-color: #E4EFFE !important
+    background-color: #EBF6FC !important
   &-2
     background-color: #1E29A8 !important
-
+  &-3
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(254, 244, 232, 1) 30%, rgba(254, 244, 232, 1) 70%, rgba(255, 255, 255, 1) 100%)
+  &-4
+    background-color: #FDE8D1
+  &-5
+    color: #43BB97 !important
+  &-6
+    background-color: #AFDAF4
+  &-7
+    background-color: #D7ECF9
+  &-8
+    background-color: #FBD1A2
+    display: inline-flex
+  &-9
+    background-color: #216189
+  &-10
+    background-color: #BAF6E4
   
   &-white
     background-color: white !important
@@ -106,6 +121,36 @@ figcaption
     background-color: $color-secundario !important
   &-sintesis
     background-color: #F6F6F6
+
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #FD9826
+  border-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -16px
+  bottom: 0
+  width: 50px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 20px
+
 
 // Variables
 $custom-card-border-radius: 0px
@@ -179,11 +224,11 @@ $custom-card-img-height: 205px
 .slyder-a__btn--sigt, .slyder-a__btn--atrs 
     background-color: $color-acento-botones;
 .slyder-a__bullets__item 
-    background-color: #B2FAFC
-    border: 1px solid #B2FAFC;
+    background-color: #B9DFF6
+    border: 1px solid #B9DFF6;
 .slyder-a__bullets__item--active 
-    background-color: $color-acento-contenido !important
-    border-color: $color-acento-contenido !important;
+    background-color: $color-primario !important
+    border-color: $color-primario !important;
 
 // Slider Bullet Responsive Styles
 @media screen and (max-width: $bp-max-sm)
@@ -240,13 +285,17 @@ $custom-card-img-height: 205px
      width: 20%
 
 
+/////////////ACORDION/////////////
 .acordion__accion__btn--a
-  background-color: #F13C0E !important
-  i
-    color: white !important
+  background-color: #FED401 !important
+.acordion__activo
+  background-color: #BAF6E4!important
+
 
 .acordion__activo
-  background-color: #FCF2CE !important
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
 
 .tabs-b__tab 
   background-color: #E8F5D5;

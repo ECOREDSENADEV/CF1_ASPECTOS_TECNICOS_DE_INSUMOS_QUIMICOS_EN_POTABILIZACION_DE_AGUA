@@ -10,15 +10,15 @@
 
 
     .row.mb-4.align-items-center
-      .col-lg-8
-        .bg-color-1.px-4.py-5(data-aos="fade-left").mb-4
+      .col-lg-9.mb-3.mb-lg-0
+        .bg-color-1.p-4(data-aos="fade-left").mb-4
           p.mb-0 El acceso a agua potable es un derecho fundamental y una necesidad esencial para la salud pública. Garantizar la calidad del agua requiere una comprensión precisa de los procesos técnicos que intervienen en su tratamiento, especialmente aquellos relacionados con la aplicación de insumos químicos. Estos productos, como los coagulantes, desinfectantes y sustancias reguladoras de pH, son indispensables para transformar el agua cruda en un recurso seguro para el consumo humano. 
-      .col-lg-auto.d-none.d-sm-block
+      .col-lg-3
         figure
-          img(src="@/assets/curso/intro/1.png", data-aos="zoom-in", style="max-width: 295;").mb-4.mb-lg-0
+          img(src="@/assets/curso/intro/1.png", data-aos="zoom-in").mb-4.mb-lg-0
 
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/intro/2.png')})`}"
       )
