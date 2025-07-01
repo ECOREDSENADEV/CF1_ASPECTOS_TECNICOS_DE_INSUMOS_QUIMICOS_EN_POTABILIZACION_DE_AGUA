@@ -22,7 +22,7 @@
             .col-lg-auto.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema8/2.png', alt='')
-            .col-lg
+            .col-lg.p-4.p-lg-0
               ul.lista-ul--color
                 li.mb-3.d-flex
                   i.fas.fa-circle-check.bg-color-5

@@ -31,7 +31,7 @@
                 .col-lg-auto.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema5/2.png', alt='')
-                .col-lg
+                .col-lg.p-4.p-lg-0
                   ul.lista-ul--color
                     li.mb-3.d-flex
                       i.fas.fa-circle-check.bg-color-5
@@ -181,7 +181,7 @@
             .col-lg-auto.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema5/11.svg', alt='')
-            .col-lg
+            .col-lg.p-4.p-lg-0
               p En esta etapa se retienen los sólidos que no fueron separados en la unidad de floculación. Generalmente, se trata de partículas de menor tamaño. Aunque el agua clarificada comienza a visualizarse en esta fase, aún es necesario que pase por la unidad de filtración para eliminar las partículas más finas. Los sedimentadores convencionales se diseñan teniendo en cuenta dos parámetros clave:
               ul.lista-ul--color
                 li.mb-3.d-flex
@@ -230,7 +230,7 @@
             .col-lg-auto.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema5/14.svg', alt='')
-            .col-lg
+            .col-lg.p-4.p-lg-0
               p Estas unidades requieren un control técnico riguroso. Si el operario no gestiona adecuadamente los niveles de turbiedad en las etapas anteriores del tratamiento, existe el riesgo de que los filtros colapsen, lo que afectaría directamente la calidad del agua suministrada. Los filtros están compuestos por lechos filtrantes conformados por capas de grava, gravilla, arena y antracita o carbón activado. La disposición y tipo de materiales pueden variar según el diseño del filtro y la calidad del agua a tratar.
     
     p.mb-5 El proceso de filtración puede realizarse mediante flujo ascendente o descendente, como se ilustra en la figura a continuación.
@@ -275,8 +275,8 @@
     
     p.mb-5 La función principal de la desinfección es la eliminación de microorganismos patógenos como los coliformes totales, E. Colli, mesófilos, entro otros que pueden ocasionar enfermedades, el proceso de desinfección se encuentra como etapa final de la potabilización, dicho proceso puede realizarse mediante cloración o con otro tipo de desinfectante, sin embargo, el mas usado es la cloración, por lo cual en el presente curso se describen las características principales con la aplicación de cloro.
 
-    .row.mb-5
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+    .row.mb-5.justify-content-center
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
@@ -286,7 +286,7 @@
 
           h3.text-center Definición
           p.text-small Consiste básicamente en introducir productos clorados en el agua para eliminar todos aquellos microorganismos patógenos que se encuentren presentes.
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
@@ -297,7 +297,7 @@
           h3.text-center Tiempo del proceso
           p.text-small Usualmente el proceso tarda alrededor de unos 20 a 30 minutos y gracias al efecto remanente que tiene el cloro, el efecto continuo durante horas o incluso días.
 
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
         //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde

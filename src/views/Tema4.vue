@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 4.	Caracterización del agua cruda: ensayos <em>in situ</em> y de laboratorio.
+      h1 Caracterización del agua cruda: ensayos <em>in situ</em> y de laboratorio.
     
     .row.mb-4.align-items-center
       .col-lg-9.mb-3.mb-lg-0
@@ -29,9 +29,9 @@
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
             h3.titulo-con-imagen__texto Determinación de turbiedad
         .row.mb-4.align-items-center
-          .col-lg-9.mb-3.mb-lg-0
+          .col-lg-9.mb-3.mb-lg-0.order-2.order-lg-1
             p.mb-0 La turbiedad indica la presencia de sólidos suspendidos en el agua. Su medición se realiza mediante turbidímetros, ya sean portátiles o de laboratorio, y los resultados se expresan en NTU (unidades nefelométricas de turbiedad). En las plantas de tratamiento de agua potable, este parámetro se controla diariamente para ajustar la dosis óptima de coagulante. Durante la fase de arranque del sistema, la turbiedad, junto con el color aparente, se considera esencial para definir la viabilidad del tratamiento.
-          .col-lg-3
+          .col-lg-3.order-1.order-lg-2
             figure
               img(src="@/assets/curso/temas/tema4/2.png", data-aos="zoom-in").mb-4.mb-lg-0
         
@@ -47,7 +47,7 @@
             p.mb-0 Para medir la turbiedad, se toma una muestra de agua en un recipiente limpio, evitando agitarla en exceso, ya que esto podría alterar la concentración de partículas y generar lecturas incorrectas. Luego, se llena una celda del turbidímetro con la muestra. El equipo proyecta un haz de luz a través del agua y mide la cantidad de luz dispersada por las partículas presentes. El resultado se expresa en NTU (Unidades Nefelométricas de Turbidez).
           .col-lg-1
             figure
-              img(src="@/assets/curso/temas/tema4/4.svg", data-aos="zoom-in").mb-4.mb-lg-0
+              img.d-none.d-lg-flex(src="@/assets/curso/temas/tema4/4.svg", data-aos="zoom-in").mb-4.mb-lg-0
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo

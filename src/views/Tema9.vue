@@ -7,7 +7,7 @@
         span 9
       h1 Criterios técnicos para la selección de insumos
 
-    .bg-full-width.bg-fondo-3.mb-5
+    .bg-full-width.bg-fondo-3
       .p-4.p-md-5
         .row.mb-4.align-items-center
           .col-lg-9.mb-3.mb-lg-0
@@ -75,7 +75,7 @@
               .px-4.px-md-5.py-4
                 p.mb-0 Es importante tener en cuenta que en aguas con alta turbiedad pueden requerir coagulantes más potentes.
     
-    div.p-3.bg-color-8.tarjeta
+    div.p-3.bg-color-8.tarjeta.mb-5
       h3.mb-0 Riesgos asociados al uso de insumos químicos
     
     p.mb-5 El uso de insumos químicos en las plantas de tratamiento de agua implica una serie de riesgos para el personal y el entorno. Entre los principales se encuentran:
@@ -87,7 +87,7 @@
             .col-lg-auto.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/temas/tema9/11.png', alt='')
-            .col-lg
+            .col-lg.p-4.p-lg-0
               ul.lista-ul--color
                 li.mb-3.d-flex
                   i.fas.fa-circle-check.bg-color-5

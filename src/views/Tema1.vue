@@ -7,7 +7,7 @@
         span 1
       h1 Lineamientos técnicos de agua potable y saneamiento
     
-    .bg-full-width.bg-color-3.mb-5
+    .bg-full-width.bg-color-3
       .p-4.py-lg-0.px-4.px-md-5
         .row.mb-4.align-items-center
           .col-lg-9.mb-3.mb-lg-0
@@ -33,7 +33,7 @@
                 .col-lg-auto.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/temas/tema1/2.png', alt='')
-                .col-lg
+                .col-lg.p-4.p-lg-0
                   ul.lista-ul--color
                     li.mb-3.d-flex
                       i.fas.fa-circle-check.bg-color-5
@@ -116,9 +116,9 @@
           table
             thead
               tr
-                th.bg-color-10 Característica
-                th.bg-color-10 Unidad
-                th.bg-color-10 Valor máximo aceptable
+                th Característica
+                th Unidad
+                th Valor máximo aceptable
             tbody.bg-color-white
               tr
                 td Cloro residual
@@ -200,9 +200,9 @@
           table
             thead
               tr
-                th.bg-color-10 Característica
-                th.bg-color-10 Unidad
-                th.bg-color-10 Valor máximo aceptable
+                th Característica
+                th Unidad
+                th Valor máximo aceptable
             tbody.bg-color-white
               tr
                 td Coliformes totales
